@@ -54,13 +54,6 @@ function isValidIMEI(imei = null) {
     return checksum == calculateChecksum;
 }
 
-
-
-module.exports = {
-    generateIMEI,
-    isValidIMEI
-};
-
 module.exports.generateIMEI = generateIMEI;
 module.exports.isValidIMEI = isValidIMEI;
 
