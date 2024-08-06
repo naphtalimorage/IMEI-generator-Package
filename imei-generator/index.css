@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+
+}
+@media only screen and (max-width: 600px) {
+
+    body {
+      font-size: 14px; 
+    }
+    .header {
+      padding: 10px; 
+    }
+    .menu {
+      display: none; 
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    
+    .container {
+      max-width: 80%; 
+      margin: 0 auto; 
+    }
+    .sidebar {
+      float: none; 
+      width: 100%; 
+    }
+  }
+  @media only screen and (min-width: 901px) {
+    
+    .container {
+      max-width: 1200px; 
+    }
+    .sidebar {
+      float: left; 
+      width: 25%; 
+    }
+    .main-content {
+      width: 75%; 
+    }
+  }
+        
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.Generator-btn {
+    text-align: center;
+}
+
+.Generator-btn button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(239, 83%, 42%);
+    color: #fff;
+}
+
+.Generator-btn button:active{
+    background-color: hsl(239, 83%, 90%);
+
+}
+
+.Generator-btn button:hover {
+    background-color: hsl(239, 83%, 60%);
+}
+
+#gen-input {
+    width: 46vw;
+    text-align: right;
+    padding: 10px 20px;
+    margin-left: 340px;
+}
+
+#IMEI-input {
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    width: 30vw;
+    margin-left: 25vw;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#validate-button {
+    padding: 13px;
+    border-radius: 5px;
+    width: 18vw;
+    position: relative;
+    bottom: 40px;
+    left: 770px;
+    cursor: pointer;
+    background-color: hsl(239, 83%, 42%);
+    color: #fff;
+    border: none;
+}
+
+#validate-button:active{
+    background-color: hsl(239, 83%, 100%);
+
+}
+
+#validate-button:hover {
+    background-color: hsl(239, 83%, 50%);
+}
+
+.IMEI-validation h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 10px;
+}
